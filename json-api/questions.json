@@ -3,20 +3,14 @@
     {
       "question_title" : "Choose the correct variant"
       "questions_body" : "Which one is a noun ?"
-      "question_type" : ["one_choice","multiple_choices" , ""]
       "answers" : ["sell" , "get" , "ball" , "hope"]
       "correctIndex" : 3
-      "correctIndexes" : [1 , 3]
-      "possible_answers" : ["possible answer" , "a possible answer" , "the possible answers"]
     } ,
     {
       "question_title" : "Choose the correct variant"
       "questions_body" : "Which one is a noun ?"
-      "question_type" : ["one_choice","multiple_choices" , ""]
       "answers" : ["sell" , "get" , "ball" , "hope"]
       "correctIndex" : 3
-      "correctIndexes" : [1 , 3]
-      "possible_answers" : ["possible answer" , "a possible answer" , "the possible answers"]
     }
   ]
 }
