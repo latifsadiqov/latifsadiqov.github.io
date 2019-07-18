@@ -1,0 +1,74 @@
+{
+  "questions" : [
+    {
+      "question_title" : "Choose the correct variant" ,
+      "questions_body" : "Which one is a noun ?" ,
+      "answers" : ["sell" , "get" , "ball" , "hope"] ,
+      "correctIndex" : 3 ,
+      "bonus" : 10
+    } ,
+    {
+      "question_title" : "Choose the correct variant" ,
+      "questions_body" : "Which one is a noun ?" ,
+      "answers" : ["sell" , "get" , "ball" , "hope"] ,
+      "correctIndex" : 3 ,
+      "bonus" : 15
+    } ,
+    {
+      "question_title" : "Choose the correct variant" ,
+      "questions_body" : "Which one is a noun ?" ,
+      "answers" : ["sell" , "get" , "ball" , "hope"] ,
+      "correctIndex" : 3 ,
+      "bonus" : 10
+    } ,
+    {
+      "question_title" : "Choose the correct variant" ,
+      "questions_body" : "Which one is a noun ?" ,
+      "answers" : ["sell" , "get" , "ball" , "hope"] ,
+      "correctIndex" : 3 ,
+      "bonus" : 10
+    } ,
+    {
+      "question_title" : "Choose the correct variant" ,
+      "questions_body" : "Which one is a noun ?" ,
+      "answers" : ["sell" , "get" , "ball" , "hope"] ,
+      "correctIndex" : 3 ,
+      "bonus" : 10
+    } ,
+    {
+      "question_title" : "Choose the correct variant" ,
+      "questions_body" : "Which one is a noun ?" ,
+      "answers" : ["sell" , "get" , "ball" , "hope"] ,
+      "correctIndex" : 3 ,
+      "bonus" : 10
+    } ,
+    {
+      "question_title" : "Choose the correct variant" ,
+      "questions_body" : "Which one is a noun ?" ,
+      "answers" : ["sell" , "get" , "ball" , "hope"] ,
+      "correctIndex" : 3 ,
+      "bonus" : 10
+    } ,
+    {
+      "question_title" : "Choose the correct variant" ,
+      "questions_body" : "Which one is a noun ?" ,
+      "answers" : ["sell" , "get" , "ball" , "hope"] ,
+      "correctIndex" : 3 ,
+      "bonus" : 10
+    } ,
+    {
+      "question_title" : "Choose the correct variant" ,
+      "questions_body" : "Which one is a noun ?" ,
+      "answers" : ["sell" , "get" , "ball" , "hope"] ,
+      "correctIndex" : 3 ,
+      "bonus" : 10
+    } ,
+    {
+      "question_title" : "Choose the correct variant" ,
+      "questions_body" : "Which one is a noun ?" ,
+      "answers" : ["sell" , "get" , "ball" , "hope"] ,
+      "correctIndex" : 3 ,
+      "bonus" : 10
+    }
+  ]
+}
