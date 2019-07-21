@@ -1,16 +1,16 @@
 {
   "questions" : [
     {
-      "question_title" : "question hello 1" ,
-      "questions_body" : "Which one is a noun ?" ,
-      "answers" : ["sell" , "get" , "ball" , "hope"] ,
+      "question_title" : "______ are you mad?" ,
+      "questions_body" : "Because you are late!" ,
+      "answers" : ["why" , "where" , "who" , "what"] ,
       "correctIndex" : 3 ,
       "bonus" : 10
     } ,
     {
-      "question_title" : "question hello 2" ,
-      "questions_body" : "Which one is a noun ?" ,
-      "answers" : ["sell" , "get" , "ball" , "hope"] ,
+      "question_title" : "George Washington ______ the first President of the United States." ,
+      "questions_body" : " " ,
+      "answers" : ["where" , "were" , "was" , "will"] ,
       "correctIndex" : 3 ,
       "bonus" : 15
     } ,
