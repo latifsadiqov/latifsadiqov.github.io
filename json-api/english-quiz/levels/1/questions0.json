@@ -1,74 +1,15 @@
 {
   "questions" : [
-    {
-      "question_title" : "______ are you mad?" ,
-      "questions_body" : "Because you are late!" ,
-      "answers" : ["why" , "where" , "who" , "what"] ,
-      "correctIndex" : 3 ,
-      "bonus" : 10
-    } ,
-    {
-      "question_title" : "George Washington ______ the first President of the United States." ,
-      "questions_body" : " " ,
-      "answers" : ["where" , "were" , "was" , "will"] ,
-      "correctIndex" : 3 ,
-      "bonus" : 15
-    } ,
-    {
-      "question_title" : "questions 3" ,
-      "questions_body" : "Which one is a noun ?" ,
-      "answers" : ["sell" , "get" , "ball" , "hope"] ,
-      "correctIndex" : 3 ,
-      "bonus" : 10
-    } ,
-    {
-      "question_title" : "Choose the correct variant" ,
-      "questions_body" : "Which one is a noun ?" ,
-      "answers" : ["sell" , "get" , "ball" , "hope"] ,
-      "correctIndex" : 3 ,
-      "bonus" : 10
-    } ,
-    {
-      "question_title" : "Choose the correct variant" ,
-      "questions_body" : "Which one is a noun ?" ,
-      "answers" : ["sell" , "get" , "ball" , "hope"] ,
-      "correctIndex" : 3 ,
-      "bonus" : 10
-    } ,
-    {
-      "question_title" : "Choose the correct variant" ,
-      "questions_body" : "Which one is a noun ?" ,
-      "answers" : ["sell" , "get" , "ball" , "hope"] ,
-      "correctIndex" : 3 ,
-      "bonus" : 10
-    } ,
-    {
-      "question_title" : "Choose the correct variant" ,
-      "questions_body" : "Which one is a noun ?" ,
-      "answers" : ["sell" , "get" , "ball" , "hope"] ,
-      "correctIndex" : 3 ,
-      "bonus" : 10
-    } ,
-    {
-      "question_title" : "Choose the correct variant" ,
-      "questions_body" : "Which one is a noun ?" ,
-      "answers" : ["sell" , "get" , "ball" , "hope"] ,
-      "correctIndex" : 3 ,
-      "bonus" : 10
-    } ,
-    {
-      "question_title" : "Choose the correct variant" ,
-      "questions_body" : "Which one is a noun ?" ,
-      "answers" : ["sell" , "get" , "ball" , "hope"] ,
-      "correctIndex" : 3 ,
-      "bonus" : 10
-    } ,
-    {
-      "question_title" : "Choose the correct variant" ,
-      "questions_body" : "Which one is a noun ?" ,
-      "answers" : ["sell" , "get" , "ball" , "hope"] ,
-      "correctIndex" : 3 ,
-      "bonus" : 10
-    }
+    "{"question":"She ... my friend !" , "answers":["are","were ","is ","will"], "correctIndex":2 },"
+"{"question":"I ... a translator ." , "answers":["is","am","are","has"], "correctIndex":1 },"
+"{"question":"She ... my friend !" , "answers":["are","were ","is ","will"], "correctIndex":2 },"
+"{"question":"I ... a translator ." , "answers":["is","am","are","has"], "correctIndex":1 },"
+"{"question":"She ... my friend !" , "answers":["are","were ","is ","will"], "correctIndex":2 },"
+"{"question":"I ... a translator ." , "answers":["is","am","are","has"], "correctIndex":1 },"
+"{"question":"She ... my friend !" , "answers":["are","were ","is ","will"], "correctIndex":2 },"
+"{"question":"I ... a translator ." , "answers":["is","am","are","has"], "correctIndex":1 },"
+"{"question":"She ... my friend !" , "answers":["are","were ","is ","will"], "correctIndex":2 },"
+"{"question":"I ... a translator ." , "answers":["is","am","are","has"], "correctIndex":1 },"
+
   ]
 }
