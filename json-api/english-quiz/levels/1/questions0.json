@@ -1,15 +1,23 @@
 {
   "questions" : [
-    "{"question":"She ... my friend !" , "answers":["are","were ","is ","will"], "correctIndex":2 },"
-"{"question":"I ... a translator ." , "answers":["is","am","are","has"], "correctIndex":1 },"
-"{"question":"She ... my friend !" , "answers":["are","were ","is ","will"], "correctIndex":2 },"
-"{"question":"I ... a translator ." , "answers":["is","am","are","has"], "correctIndex":1 },"
-"{"question":"She ... my friend !" , "answers":["are","were ","is ","will"], "correctIndex":2 },"
-"{"question":"I ... a translator ." , "answers":["is","am","are","has"], "correctIndex":1 },"
-"{"question":"She ... my friend !" , "answers":["are","were ","is ","will"], "correctIndex":2 },"
-"{"question":"I ... a translator ." , "answers":["is","am","are","has"], "correctIndex":1 },"
-"{"question":"She ... my friend !" , "answers":["are","were ","is ","will"], "correctIndex":2 },"
-"{"question":"I ... a translator ." , "answers":["is","am","are","has"], "correctIndex":1 },"
+    {"question":"I ... a translator ." , "answers":["is","am","are","has"], "correctIndex":1 },
+
+{"question":"She ... my friend !" , "answers":["are","were ","is ","will"], "correctIndex":2 },
+
+{"question":"I ... a translator ." , "answers":["is","am","are","has"], "correctIndex":1 },
+
+{"question":"She ... my friend !" , "answers":["are","were ","is ","will"], "correctIndex":2 },
+
+{"question":"I ... a translator ." , "answers":["is","am","are","has"], "correctIndex":1 },
+
+{"question":"She ... my friend !" , "answers":["are","were ","is ","will"], "correctIndex":2 },
+
+{"question":"I ... a translator ." , "answers":["is","am","are","has"], "correctIndex":1 },
+
+{"question":"She ... my friend !" , "answers":["are","were ","is ","will"], "correctIndex":2 },
+
+{"question":"I ... a translator ." , "answers":["is","am","are","has"], "correctIndex":1 },
+
 
   ]
 }
