@@ -1,10 +1,10 @@
 {
   "questions" : [
     {
-      "question_title" : "Choose the correct variant" ,
-      "questions_body" : "Which one is a noun ?" ,
-      "answers" : ["sell" , "get" , "ball" , "hope"] ,
-      "correctIndex" : 3 ,
+      "question_title" : "" ,
+      "questions_body" : "" ,
+      "answers" : ["" , "" , "" , ""] ,
+      "correctIndex" : 0 ,
       "bonus" : 10
     } ,
     {
