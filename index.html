@@ -1,225 +1,931 @@
 <!DOCTYPE html>
-<html  >
-<head>
-  <!--  -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/mbr-122x125.png" type="image/x-icon">
-  <meta name="description" content="">
-  
-  
-  <title>Lanqvist Agency</title>
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/tether/tether.min.css">
-  <link rel="stylesheet" href="assets/animatecss/animate.min.css">
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-  
-  
-  
-</head>
-<body>
-  <section class="menu cid-rXCSciKRJE" once="menu" id="menu2-9">
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Go-Code Studio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
-    
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
 
-    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm bg-color transparent">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </button>
-        <div class="menu-logo">
-            <div class="navbar-brand">
-                
-                
-            </div>
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM Plex Sans:wght@400;500&family=Paytone One:wght@400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container-xxl bg-white p-0">
+      <!-- Spinner Start -->
+      <div
+        id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="spinner-grow text-primary"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        >
+          <span class="sr-only">Yüklənir...</span>
         </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-dropdown navbar-nav-top-padding" data-app-modern-menu="true"><li class="nav-item">
-                    <a class="nav-link link text-white display-4" href="index.html#pricing-tables1-b">Xidmətlərimiz</a>
-                </li>
-                <li class="nav-item"><a class="nav-link link text-white display-4" href="index.html#countdown2-7">Endirimlər</a></li></ul>
-            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="https://wa.me/+994519680312"><span class="socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn"></span>
-                    051-968-03-12</a> <a class="btn btn-sm btn-primary display-4" href="https://instagram.com/lanqvist.agency" target="_blank"><span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn"></span>@lanqvist.agency</a></div>
+      </div>
+      <!-- Spinner End -->
+
+      <!-- Navbar & Hero Start -->
+      <div class="container-xxl position-relative p-0">
+        <nav
+          class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+        >
+          <a href="" class="navbar-brand p-0">
+            <h1 class="m-0">Go-Code Studio</h1>
+            <!-- <img src="img/logo.png" alt="Logo"> -->
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto py-0">
+              <!-- <a href="index.html" class="nav-item nav-link active"></a> -->
+              <a href="#melumat" class="nav-item nav-link">Haqqımızda</a>
+              <a href="#xidmetler" class="nav-item nav-link">Xidmətlər</a>
+              <a href="#portfolio" class="nav-item nav-link">Lahiyələr</a>
+              <a href="#komanda" class="nav-item nav-link">Komanda</a>
+              <a href="#elaqe" class="nav-item nav-link">Əlaqə</a>
+            </div>
+            <a href="https://wa.me/994702451547?text=Salam, yeniliklərlə ayaqlaşmaq üçün web sayt və mobil tətbiq hazırlatmaq istəyirəm. Lakin əvvəlcə sizə bir neçə sualım olacaq." class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block"
+              >SUALIN VAR?</a
+            >
+          </div>
+        </nav>
+
+        <div class="container-xxl bg-primary hero-header">
+          <div class="container px-lg-5">
+            <div class="row g-5 align-items-end">
+              <div class="col-lg-6 text-center text-lg-start">
+                <h1 class="text-white mb-4 animated slideInDown">
+                  Mobil tətbiqlərin və Web saytların hazırlanması
+                </h1>
+                <p class="text-white pb-3 animated slideInDown">
+                  Xəyalları Rəqəmsal Gerçəkliyə çevirmək bizim işimizdir:
+                  Android, iOS mobil tətbiq və Web saytların hazırlanmasında etibarlı tərəfdaşınız.
+                </p>
+                <!-- <a href="" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Read More</a> -->
+                <a
+                  href="https://wa.me/994702451547?text=Salam, yeniliklərlə ayaqlaşmaq üçün web sayt və mobil tətbiq hazırlatmaq istəyirəm. Lakin əvvəlcə sizə bir neçə sualım olacaq."
+                  class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight"
+                  >SUALIN VAR?</a
+                >
+              </div>
+              <div class="col-lg-6 text-center text-lg-start">
+                <img
+                  class="img-fluid animated zoomIn"
+                  src="img/hero.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
         </div>
-    </nav>
-</section>
+      </div>
+      <!-- Navbar & Hero End -->
 
-<section class="engine"><a href="https://mobirise.info/h">create a web page for free</a></section><section class="cid-qTkA127IK8 mbr-fullscreen mbr-parallax-background" id="header2-1">
-
-    
-
-    
-
-    <div class="container align-center">
-        <div class="row justify-content-md-center">
-            <div class="mbr-white col-md-10">
-                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">Web Saytların Hazırlanması&nbsp;</h1>
-                
-                <p class="mbr-text pb-3 mbr-fonts-style display-5">Azərbaycanda ən sərfəli qiymətə sıfırdan veb saytların hazırlanması</p>
-                <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:+994519680312">&nbsp; &nbsp; &nbsp; &nbsp; ZƏNG ET &nbsp; &nbsp; &nbsp; &nbsp;</a>
-                    <a class="btn btn-md btn-secondary display-4" href="https://wa.me/+994519680312">WhatsApp'da yaz</a></div>
+      <!-- Feature Start -->
+      <div class="container-xxl py-5">
+        <div class="container py-5 px-lg-5">
+          <div class="row g-4">
+            <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="feature-item bg-light rounded text-center p-4">
+                <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                <h5 class="mb-3">Web sayt</h5>
+                <p class="m-0">
+                  Hazırladığımız veb saytlar tam təhlükəsiz, müasir və istifadəçi dostudur.
+                </p>
+              </div>
             </div>
+            <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+              <div class="feature-item bg-light rounded text-center p-4">
+                <i class="fa fa-3x fa-mobile-screen text-primary mb-4"></i>
+                <h5 class="mb-3">Mobil tətbiq</h5>
+                <p class="m-0">
+                  Android və iOS mobil tətbiqləri hazırlayarakən bütün cihazlarda problemsiz işləməsinə xüsusi diqqət yetiririk. .
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+              <div class="feature-item bg-light rounded text-center p-4">
+                <i class="fa fa-3x fa-desktop text-primary mb-4"></i>
+                <h5 class="mb-3">Kompüter proqram təminatı</h5>
+                <p class="m-0">
+                  Böyük şirkətlərdə proseslərin avtomatlaşdırılması və xidmət keyfiyyətinin yüksəldilməsi üçün proqram təminatları da hazırlayırıq.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-    
-</section>
+      </div>
+      <!-- Feature End -->
 
-<section class="pricing-table1 cid-rXD020WSpm" id="pricing-tables1-b">
+      <!-- About Start -->
+      <div id="melumat" class="container-xxl py-5">
+        <div class="container py-5 px-lg-5">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <p class="section-title text-secondary">Haqqımızda<span></span></p>
+              <h1 class="mb-5">5 illik təcrübə</h1>
+              <p class="mb-4">
+                Mobil tətbiq və veb dizayn üzrə mütəxəssisləşmiş komandamız büdcənizə uyğun keyfiyyətli həllər təklif edir.
+              </p>
 
-    
-
-    
-    <div class="container">
-        <div class="media-container-row">
-
-            <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-6">
-                <div class="plan-header text-center pt-5">
-                    <h3 class="plan-title mbr-fonts-style display-5">WEBSAYT&nbsp;</h3>
-                    <div class="plan-price">
-                        <span class="price-value mbr-fonts-style display-5">AZN</span>
-                        <span class="price-figure mbr-fonts-style display-1">
-                              300</span>
-                        <small class="price-term mbr-fonts-style display-7">dən</small>
-                    </div>
+              <div class="skill mb-4">
+                <div class="d-flex justify-content-between">
+                  <p class="mb-2">Mobil Tətbiq</p>
+                  <p class="mb-2">95%</p>
                 </div>
-                <div class="plan-body pb-5">
-                    <div class="plan-list align-center">
-                        <ul class="list-group list-group-flush mbr-fonts-style display-7">
-                            <li class="list-group-item">Müasir dizayna sahip veb sayta sahib olmaq istəyirsənsə, elə indi bizə zəng et!</li>
-                            <li class="list-group-item">Peşəkar dizayn və sərfəli qiymətlər səni gözləyir</li>
-                        </ul>
-                    </div>
-                    <div class="mbr-section-btn text-center pt-4"><a href="tel:+994519680312" class="btn btn-primary display-4">ZƏNG ET</a></div>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-dark"
+                    role="progressbar"
+                    aria-valuenow="95"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
                 </div>
+              </div>
+              <div class="skill mb-4">
+                <div class="d-flex justify-content-between">
+                  <p class="mb-2">Web Dizayn</p>
+                  <p class="mb-2">93%</p>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-primary"
+                    role="progressbar"
+                    aria-valuenow="93"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="skill mb-4">
+                <div class="d-flex justify-content-between">
+                  <p class="mb-2">SEO</p>
+                  <p class="mb-2">91%</p>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-secondary"
+                    role="progressbar"
+                    aria-valuenow="91"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- <a href="" class="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3">Read More</a> -->
             </div>
-
-            <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-6">
-                <div class="plan-header text-center pt-5">
-                    <h3 class="plan-title mbr-fonts-style display-5">MOBİL TƏTBİQ</h3>
-                    <div class="plan-price">
-                        <span class="price-value mbr-fonts-style display-5">AZN</span>
-                        <span class="price-figure mbr-fonts-style display-1">400</span>
-                        <small class="price-term mbr-fonts-style display-7">dən</small>
-                    </div>
-                </div>
-                <div class="plan-body pb-5">
-                    <div class="plan-list align-center">
-                        <ul class="list-group list-group-flush mbr-fonts-style display-7">Mobil tətbiqlərin hazırlanması işini də bizə etibar edə bilərsiniz.<br><br>Android və iOS əməliyyat sistemləri üçün hazırlanan tətbiqlər tərəfimizdən Play Store və App Store' yüklənəcək.<br>Həm sayt, həm də mobil tətbiq sifariş etdikdə xüsusi endirim təklif ediləcək.</ul>
-                    </div>
-                    <div class="mbr-section-btn text-center pt-4"><a href="tel:+994519680312" class="btn btn-primary display-4">ZƏNG ET</a></div>
-                </div>
+            <div class="col-lg-6">
+              <img
+                class="img-fluid wow zoomIn"
+                data-wow-delay="0.5s"
+                src="img/about.png"
+              />
             </div>
+          </div>
+        </div>
+      </div>
+      <!-- About End -->
 
+      <!-- Facts Start -->
+      <div
+        class="container-xxl bg-primary fact py-5 wow fadeInUp"
+        data-wow-delay="0.1s"
+      >
+        <div class="container py-5 px-lg-5">
+          <div class="row g-4">
+            <div
+              class="col-md-6 col-lg-3 text-center wow fadeIn"
+              data-wow-delay="0.1s"
+            >
+              <i class="fa fa-certificate fa-3x text-secondary mb-3"></i>
+              <h1 class="text-white mb-2" data-toggle="counter-up">5</h1>
+              <p class="text-white mb-0">il təcrübə</p>
+            </div>
+            <div
+              class="col-md-6 col-lg-3 text-center wow fadeIn"
+              data-wow-delay="0.3s"
+            >
+              <i class="fa fa-users-cog fa-3x text-secondary mb-3"></i>
+              <h1 class="text-white mb-2" data-toggle="counter-up">3</h1>
+              <p class="text-white mb-0">komanda üzvləri</p>
+            </div>
+            <div
+              class="col-md-6 col-lg-3 text-center wow fadeIn"
+              data-wow-delay="0.5s"
+            >
+              <i class="fa fa-users fa-3x text-secondary mb-3"></i>
+              <h1 class="text-white mb-2" data-toggle="counter-up">37</h1>
+              <p class="text-white mb-0">razı qalan müştərilər</p>
+            </div>
+            <div
+              class="col-md-6 col-lg-3 text-center wow fadeIn"
+              data-wow-delay="0.7s"
+            >
+              <i class="fa fa-check fa-3x text-secondary mb-3"></i>
+              <h1 class="text-white mb-2" data-toggle="counter-up">41</h1>
+              <p class="text-white mb-0">tamamlanmış lahiyələr</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Facts End -->
+
+      <!-- Service Start -->
+      <div id="xidmetler" class="container-xxl py-5">
+        <div class="container py-5 px-lg-5">
+          <div class="wow fadeInUp" data-wow-delay="0.1s">
+            <p class="section-title text-secondary justify-content-center">
+              <span></span>XİDMƏTLƏRİMİZ<span></span>
+            </p>
+            <h1 class="text-center mb-5">Hansı Həlləri Təqdim edirik</h1>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="service-item d-flex flex-column text-center rounded">
+                <div class="service-icon flex-shrink-0">
+                  <i class="fa fa-search fa-2x"></i>
+                </div>
+                <h5 class="mb-3">SEO Optimizasiyası</h5>
+                <p class="m-0">
+                  Saytınızın Google axtarışda ən öndə çıxmasını təmin edirik.
+                </p>
+                <a class="btn btn-square" href=""
+                  ><i class="fa fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+              <div class="service-item d-flex flex-column text-center rounded">
+                <div class="service-icon flex-shrink-0">
+                  <i class="fa fa-laptop-code fa-2x"></i>
+                </div>
+                <h5 class="mb-3">Web Dizayn</h5>
+                <p class="m-0">
+                  İstədiyiniz dizaynda veb saytlar hazırlayırıq.
+                </p>
+                <a class="btn btn-square" href=""
+                  ><i class="fa fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div class="service-item d-flex flex-column text-center rounded">
+                <div class="service-icon flex-shrink-0">
+                  <i class="fab fa-facebook-f fa-2x"></i>
+                </div>
+                <h5 class="mb-3">
+                  SMM xidməti
+                </h5>
+                <p class="m-0">
+                  Biznesinizi sosial media üzərində tanıdırıq.
+                </p>
+                <a class="btn btn-square" href=""
+                  ><i class="fa fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="service-item d-flex flex-column text-center rounded">
+                <div class="service-icon flex-shrink-0">
+                  <i class="fa fa-mail-bulk fa-2x"></i>
+                </div>
+                <h5 class="mb-3">Kompüter proqram təminatı</h5>
+                <p class="m-0">
+                  Şirkərinizdə proseslərin avtomatlaşdırılması və xidmət keyfiyyətinin yüksəldilməsi üçün proqram təminatları hazırlayırıq.
+                </p>
+                <a class="btn btn-square" href=""
+                  ><i class="fa fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+              <div class="service-item d-flex flex-column text-center rounded">
+                <div class="service-icon flex-shrink-0">
+                  <i class="fa fa-thumbs-up fa-2x"></i>
+                </div>
+                <h5 class="mb-3">Texniki dəstək</h5>
+                <p class="m-0">
+                  Sayt və ya mobil tətbiqinizdə yaranmış problemə dərhal müdaxilə edərək aradan qaldırırıq.
+                </p>
+                <a class="btn btn-square" href=""
+                  ><i class="fa fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div class="service-item d-flex flex-column text-center rounded">
+                <div class="service-icon flex-shrink-0">
+                  <i class="fab fa-android fa-2x"></i>
+                </div>
+                <h5 class="mb-3">Mobil tətbiq</h5>
+                <p class="m-0">
+                  Bütün smartfonlarda qüsursuz çalışan mobil tətbiqlər hazırlayırıq.
+                </p>
+                <a class="btn btn-square" href=""
+                  ><i class="fa fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Service End -->
+
+      <!-- Newsletter Start -->
+      <div
+        class="container-xxl bg-primary newsletter py-5 wow fadeInUp"
+        data-wow-delay="0.1s"
+      >
+        <div class="container py-5 px-lg-5">
+          <div class="row justify-content-center">
+            <div class="col-lg-7 text-center">
+              <p class="section-title text-white justify-content-center">
+                <span></span>YENİLİKLƏR<span></span>
+              </p>
+              <h1 class="text-center text-white mb-4">
+                Yeniliklərdən xəbərdar ol
+              </h1>
+              <p class="text-white mb-4">
+                Endirimlərimizdən xəbərdar olmaq üçün aşağıdakı qutuda epoçt ünvanınızı qeyd etməklə saytımıza abunə ola bilərsiniz.
+              </p>
+              <div class="position-relative w-100 mt-3">
+                <input
+                  class="form-control border-0 rounded-pill w-100 ps-4 pe-5"
+                  type="text"
+                  placeholder="Epoçt ünvanınızı daxil edin"
+                  style="height: 48px"
+                />
+                <button
+                  type="button"
+                  class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"
+                >
+                  <i class="fa fa-paper-plane text-primary fs-4"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Newsletter End -->
+
+      <!-- Projects Start -->
+      <div id="portfolio" class="container-xxl py-5">
+        <div class="container py-5 px-lg-5">
+          <div class="wow fadeInUp" data-wow-delay="0.1s">
+            <p class="section-title text-secondary justify-content-center">
+              <span></span>PORTFOLİO<span></span>
+            </p>
+            <h1 class="text-center mb-5">Ən son layihələrimiz</h1>
+          </div>
+          <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-12 text-center">
+              <ul class="list-inline mb-5" id="portfolio-flters">
+                <li class="mx-2 active" data-filter="*">Hamısı</li>
+                <li class="mx-2" data-filter=".first">Web sayt</li>
+                <li class="mx-2" data-filter=".second">Mobil Tətbiq</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row g-4 portfolio-container">
+            <div
+              class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+              data-wow-delay="0.1s"
+            >
+              <div class="rounded overflow-hidden">
+                <div class="position-relative overflow-hidden">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/portfolio-1.png"
+                    alt=""
+                  />
+                  <div class="portfolio-overlay">
+                    <a
+                      class="btn btn-square btn-outline-light mx-1"
+                      href="img/portfolio-1.png"
+                      data-lightbox="portfolio"
+                      ><i class="fa fa-eye"></i
+                    ></a>
+                    <a class="btn btn-square btn-outline-light mx-1" href=""
+                      ><i class="fa fa-link"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="bg-light p-4">
+                  <p class="text-primary fw-medium mb-2">Websayt</p>
+                  <h5 class="lh-base mb-0">
+                    NMBEAUTY.AZ
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
+              <div class="rounded overflow-hidden">
+                <div class="position-relative overflow-hidden">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/portfolio-2.png"
+                    alt=""
+                  />
+                  <div class="portfolio-overlay">
+                    <a
+                      class="btn btn-square btn-outline-light mx-1"
+                      href="img/portfolio-2.png"
+                      data-lightbox="portfolio"
+                      ><i class="fa fa-eye"></i
+                    ></a>
+                    <a class="btn btn-square btn-outline-light mx-1" href=""
+                      ><i class="fa fa-link"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="bg-light p-4">
+                  <p class="text-primary fw-medium mb-2">Mobil tətbiq</p>
+                  <h5 class="lh-base mb-0">
+                    LANQVİST
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+              data-wow-delay="0.5s"
+            >
+              <div class="rounded overflow-hidden">
+                <div class="position-relative overflow-hidden">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/portfolio-3.png"
+                    alt=""
+                  />
+                  <div class="portfolio-overlay">
+                    <a
+                      class="btn btn-square btn-outline-light mx-1"
+                      href="img/portfolio-3.png"
+                      data-lightbox="portfolio"
+                      ><i class="fa fa-eye"></i
+                    ></a>
+                    <a class="btn btn-square btn-outline-light mx-1" href=""
+                      ><i class="fa fa-link"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="bg-light p-4">
+                  <p class="text-primary fw-medium mb-2">Websayt</p>
+                  <h5 class="lh-base mb-0">
+                    LANQVİST.COM
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+              data-wow-delay="0.1s"
+            >
+              <div class="rounded overflow-hidden">
+                <div class="position-relative overflow-hidden">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/portfolio-4.png"
+                    alt=""
+                  />
+                  <div class="portfolio-overlay">
+                    <a
+                      class="btn btn-square btn-outline-light mx-1"
+                      href="img/portfolio-4.png"
+                      data-lightbox="portfolio"
+                      ><i class="fa fa-eye"></i
+                    ></a>
+                    <a class="btn btn-square btn-outline-light mx-1" href=""
+                      ><i class="fa fa-link"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="bg-light p-4">
+                  <p class="text-primary fw-medium mb-2">Mobil tətbiq</p>
+                  <h5 class="lh-base mb-0">
+                    DQMK.NMR.AZ
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
+              <div class="rounded overflow-hidden">
+                <div class="position-relative overflow-hidden">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/portfolio-5.png"
+                    alt=""
+                  />
+                  <div class="portfolio-overlay">
+                    <a
+                      class="btn btn-square btn-outline-light mx-1"
+                      href="img/portfolio-5.png"
+                      data-lightbox="portfolio"
+                      ><i class="fa fa-eye"></i
+                    ></a>
+                    <a class="btn btn-square btn-outline-light mx-1" href=""
+                      ><i class="fa fa-link"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="bg-light p-4">
+                  <p class="text-primary fw-medium mb-2">Websayt</p>
+                  <h5 class="lh-base mb-0">
+                    SERXANOCAQOV.COM
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+              data-wow-delay="0.5s"
+            >
+              <div class="rounded overflow-hidden">
+                <div class="position-relative overflow-hidden">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/portfolio-6.png"
+                    alt=""
+                  />
+                  <div class="portfolio-overlay">
+                    <a
+                      class="btn btn-square btn-outline-light mx-1"
+                      href="img/portfolio-6.png"
+                      data-lightbox="portfolio"
+                      ><i class="fa fa-eye"></i
+                    ></a>
+                    <a class="btn btn-square btn-outline-light mx-1" href=""
+                      ><i class="fa fa-link"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="bg-light p-4">
+                  <p class="text-primary fw-medium mb-2">Mobil tətbiq</p>
+                  <h5 class="lh-base mb-0">
+                    UCUZAL
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Projects End -->
+
+      <!-- Testimonial Start -->
+      <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5 px-lg-5">
+          <p class="section-title text-secondary justify-content-center">
+            <span></span>TƏƏSSÜRATLAR<span></span>
+          </p>
+          <h1 class="text-center mb-5">Müştərilərimiz nə deyir!</h1>
+          <div class="owl-carousel testimonial-carousel">
+            <div class="testimonial-item bg-light rounded my-4">
+              <p class="fs-5">
+                <i class="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i
+                >İlk başda tərəddüdlü olmağıma baxmayaraq, sonda bütün gözləntilərimi doğrultdular.
+              </p>
+              <div class="d-flex align-items-center">
+                <img
+                  class="img-fluid flex-shrink-0 rounded-circle"
+                  src="img/test.jpg"
+                  style="width: 65px; height: 65px"
+                />
+                <div class="ps-4">
+                  <h5 class="mb-1">Nuray</h5>
+                  <span>Müştəri</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-item bg-light rounded my-4">
+              <p class="fs-5">
+                <i class="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i
+                >GoCode Studio komandası saytı hazırlayıb təhvil verdikdən sonra da mənə çoxlu köməklik göstərib.
+              </p>
+              <div class="d-flex align-items-center">
+                <img
+                  class="img-fluid flex-shrink-0 rounded-circle"
+                  src="img/test.jpg"
+                  style="width: 65px; height: 65px"
+                />
+                <div class="ps-4">
+                  <h5 class="mb-1">Əziz</h5>
+                  <span>Müştəri</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-item bg-light rounded my-4">
+              <p class="fs-5">
+                <i class="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i
+                >Ən kiçik detallara belə diqqət edib, yaxşı iş təhvil verdikləri üçün "GoCode Studio" komandasına öz təşəkkürümü bildirirəm.
+              </p>
+              <div class="d-flex align-items-center">
+                <img
+                  class="img-fluid flex-shrink-0 rounded-circle"
+                  src="img/test.jpg"
+                  style="width: 65px; height: 65px"
+                />
+                <div class="ps-4">
+                  <h5 class="mb-1">Saleh</h5>
+                  <span>Müştəri</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial End -->
+
+      <!-- Team Start -->
+      <div id="komanda" class="container-xxl py-5">
+        <div class="container py-5 px-lg-5">
+          <div class="wow fadeInUp" data-wow-delay="0.1s">
+            <p class="section-title text-secondary justify-content-center">
+              <span></span>Komandamız<span></span>
+            </p>
+            <h1 class="text-center mb-5">Komanda Üzvləri</h1>
+          </div>
+          <div class="row g-4">
             
-
-            
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="team-item bg-light rounded">
+                <div class="text-center border-bottom p-4">
+                  <img
+                    class="img-fluid rounded-circle mb-4"
+                    src="img/team-1.jpg"
+                    alt=""
+                  />
+                  <h5>Ümid Əhmədov</h5>
+                  <span>Web Developer</span>
+                </div>
+                <div class="d-flex justify-content-center p-4">
+                  <a class="btn btn-square mx-1"
+                    ><i class="fab fa-html5"></i
+                  ></a>
+                  <a class="btn btn-square mx-1"><i class="fab fa-css3"></i></a>
+                  <a class="btn btn-square mx-1"><i class="fab fa-js"></i></a>
+                  <a class="btn btn-square mx-1"><i class="fab fa-node"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+              <div class="team-item bg-light rounded">
+                <div class="text-center border-bottom p-4">
+                  <img
+                    class="img-fluid rounded-circle mb-4"
+                    src="img/team-2.jpg"
+                    alt=""
+                  />
+                  <h5>Lətif Sadiqov</h5>
+                  <span>Flutter Developer</span>
+                </div>
+                <div class="d-flex justify-content-center p-4">
+                  <a class="btn btn-square mx-1"
+                    ><i class="fab fa-android"></i
+                  ></a>
+                  <a class="btn btn-square mx-1"
+                    ><i class="fab fa-apple"></i
+                  ></a>
+                  <a class="btn btn-square mx-1"><i class="fab fa-java"></i></a>
+                  <a class="btn btn-square mx-1"
+                    ><i class="fas fa-laptop"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div class="team-item bg-light rounded">
+                <div class="text-center border-bottom p-4">
+                  <img
+                    class="img-fluid rounded-circle mb-4"
+                    src="img/team-3.jpg"
+                    alt=""
+                  />
+                  <h5>Samir Zeynalov</h5>
+                  <span>Backend Developer</span>
+                </div>
+                <div class="d-flex justify-content-center p-4">
+                  <a class="btn btn-square mx-1"
+                    ><i class="fab fa-phoenix-framework"></i
+                  ></a>
+                  <a class="btn btn-square mx-1"
+                    ><i class="fas fa-print"></i
+                  ></a>
+                  <a class="btn btn-square mx-1"
+                    ><i class="fas fa-folder-plus"></i
+                  ></a>
+                  <a class="btn btn-square mx-1"><i class="fas fa-lock"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+      <!-- Team End -->
 
-<section class="countdown2 cid-rWNLNzFkPZ" id="countdown2-7">
-
-    
-
-    
-
-    <div class="container">
-        <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2">Endirim</h2>
-        <h3 class="mbr-section-subtitle align-center mbr-fonts-style display-5">Endirimli qiymət üçün son tarix: 30.03.2023!</h3>
-    </div>
-    <div class="container pt-5 mt-2">
-        <div class=" countdown-cont align-center p-4">
-            <div class="event-name align-left mbr-white ">
-                <h4 class="mbr-fonts-style display-5">10% ENDİRİM</h4>
+      <!-- Footer Start -->
+      <div id="elaqe"
+        class="container-fluid bg-primary text-light footer wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="container py-5 px-lg-5">
+          <div class="row g-5">
+            <div class="col-md-6 col-lg-3">
+              <p class="section-title text-white h5 mb-4">Əlaqə<span></span></p>
+              <!-- <p>
+                <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York,
+                USA
+              </p> -->
+              <a style="color:white;" href="tel: +994702451547"> <p><i class="fa fa-phone-alt me-3"></i>+994 51 968 03 12 </p> </a>
+              <a style="color:white;" href="tel: +994702451547"> <p><i class="fa fa-phone-alt me-3"></i>+994 70 245 15 47 </p> </a>
+              <a style="color:white;" href="mailto: info@go-code.web.app"><p><i class="fa fa-envelope me-3"></i>info@go-code.web.app</p> </a>
+              <div class="d-flex pt-2">
+                <a class="btn btn-outline-light btn-social" href="https://facebook.com/gocode.studio"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a class="btn btn-outline-light btn-social" href="https://instagram.com/gocode.studio"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a class="btn btn-outline-light btn-social" href="https://wa.me/994702451547"
+                  ><i class="fab fa-whatsapp"></i
+                ></a>
+                <a class="btn btn-outline-light btn-social" href="https://tiktok.com/@gocode.studio"
+                  ><i class="fab fa-tiktok"></i
+                ></a>
+                <a class="btn btn-outline-light btn-social" href="https://t.me/gocode_studio"
+                  ><i class="fab fa-telegram"></i
+                ></a>
+              </div>
             </div>
-            <div class="countdown align-center py-2" data-due-date="2023/03/30">
+            <div class="col-md-6 col-lg-3">
+              <p class="section-title text-white h5 mb-4">
+                FAYDALI KEÇİDLƏR<span></span>
+              </p>
+              <a class="btn btn-link" href="#melumat">Haqqımızda</a>
+              <a class="btn btn-link" href="https://wa.me/994702451547">Əlaqə</a>
+              <a class="btn btn-link" href="#">Gizlilik Siyasəti</a>
+              <a class="btn btn-link" href="#">Şərtlər & Qaydalar</a>
+              <a class="btn btn-link" href="#">Karyera</a>
             </div>
-            <div class="daysCountdown col-xs-3 col-sm-3 col-md-3" title="Gün"></div>
-            <div class="hoursCountdown col-xs-3 col-sm-3 col-md-3" title="Saat"></div>
-            <div class="minutesCountdown col-xs-3 col-sm-3 col-md-3" title="Dəqiqə"></div>
-            <div class="secondsCountdown col-xs-3 col-sm-3 col-md-3" title="Saniyə"></div>
-            <div class="event-date align-left mbr-white">
-                <h5 class="mbr-fonts-style display-7">İndi müraciət et və endirimdən yararlan</h5>
+            <div class="col-md-6 col-lg-3">
+              <p class="section-title text-white h5 mb-4">
+                GÖRÜLƏN İŞLƏR<span></span>
+              </p>
+              <div class="row g-2">
+                <div class="col-4">
+                  <img
+                    class="img-fluid"
+                    src="img/portfolio-1.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="col-4">
+                  <img
+                    class="img-fluid"
+                    src="img/portfolio-2.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="col-4">
+                  <img
+                    class="img-fluid"
+                    src="img/portfolio-3.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="col-4">
+                  <img
+                    class="img-fluid"
+                    src="img/portfolio-4.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="col-4">
+                  <img
+                    class="img-fluid"
+                    src="img/portfolio-5.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="col-4">
+                  <img
+                    class="img-fluid"
+                    src="img/portfolio-6.png"
+                    alt="Image"
+                  />
+                </div>
+              </div>
             </div>
+            <div class="col-md-6 col-lg-3">
+              <p class="section-title text-white h5 mb-4">
+                YENİLİKLƏR<span></span>
+              </p>
+              <p>
+                Abunə ol və yenilikləri qaçırma!
+              </p>
+              <div class="position-relative w-100 mt-3">
+                <input
+                  class="form-control border-0 rounded-pill w-100 ps-4 pe-5"
+                  type="text"
+                  placeholder="abcde123@gmail.com"
+                  style="height: 48px"
+                />
+                <button
+                  type="button"
+                  class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"
+                >
+                  <i class="fa fa-paper-plane text-primary fs-4"></i>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-
-        
-    </div>
-</section>
-
-<section class="mbr-section form1 cid-rXCYMHMcjm" id="form1-a">
-
-    
-
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-12 col-lg-8">
-                <h2 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2">Sualın Var ?</h2>
-                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">Elə indi bizə yaz...</h3>
+        <div class="container px-lg-5">
+          <div class="copyright">
+            <div class="row">
+              <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                &copy; <a class="border-bottom" href="#">Go-Code Studio</a> - Bütün hüquqları qorunur.
+              </div>
+              <div class="col-md-6 text-center text-md-end">
+                <div class="footer-menu">
+                  <!-- <a href="">Home</a> -->
+                  <a href="#">Kukilər</a>
+                  <a href="#">Dəstək</a>
+                  <a href="#">FAQ</a>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="media-container-column col-lg-8" data-form-type="formoid">
-                <!---Formbuilder Form--->
-                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="JN9xchMRULkCNgkqTeI8uwAaw2vAwJF7d/kVUx7zvtzi9IFR4FG/OmLafRSrLKq2C1c49KPTQDYrMe39fjlJrwyELC4wDVr/qcBp84tnGLWms9NtCzC4BJQtHjiCk+9X">
-                    <div class="row">
-                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Bizimlə əlaqə saxladığınız üçün təşəkkür edirik! Sizə tezliklə cavab veriləcək.</div>
-                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-                        </div>
-                    </div>
-                    <div class="dragArea row">
-                        <div class="col-md-4  form-group" data-for="name">
-                            <label for="name-form1-a" class="form-control-label mbr-fonts-style display-7">Adınız</label>
-                            <input type="text" name="name" data-form-field="Name" required="required" class="form-control display-7" placeholder="Adınızı qeyd edin..." id="name-form1-a">
-                        </div>
-                        
-                        <div data-for="phone" class="col-md-4  form-group">
-                            <label for="phone-form1-a" class="form-control-label mbr-fonts-style display-7">Əlaqə nömrəniz</label>
-                            <input type="tel" name="phone" data-form-field="Phone" class="form-control display-7" placeholder="Əlaqə nömrənizi yazın..." id="phone-form1-a">
-                        </div>
-                        <div data-for="message" class="col-md-12 form-group">
-                            <label for="message-form1-a" class="form-control-label mbr-fonts-style display-7">Mesajınız</label>
-                            <textarea name="message" data-form-field="Message" class="form-control display-7" placeholder="Mesajınızı yazın..." id="message-form1-a"></textarea>
-                        </div>
-                        <div class="col-md-12 input-group-btn align-center"><button type="submit" class="btn btn-primary btn-form display-4">Göndər</button></div>
-                    </div>
-                </form><!---Formbuilder Form--->
-            </div>
-        </div>
-    </div>
-</section>
+      </div>
+      <!-- Footer End -->
 
+      <a
+        href="https://wa.me/994702451547"
+        class="btn btn-lg btn-secondary btn-lg-square"
+        style="position: fixed; bottom: 40px; right: 30px"
+        ><i class="fab fa-whatsapp"></i
+      ></a>
+    </div>
 
-  <script src="assets/web/assets/jquery/jquery.min.js"></script>
-  <script src="assets/popper/popper.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-  <script src="assets/smoothscroll/smooth-scroll.js"></script>
-  <script src="assets/dropdown/js/nav-dropdown.js"></script>
-  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
-  <script src="assets/tether/tether.min.js"></script>
-  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
-  <script src="assets/parallax/jarallax.min.js"></script>
-  <script src="assets/countdown/jquery.countdown.min.js"></script>
-  <script src="assets/theme/js/script.js"></script>
-  <script src="assets/formoid/formoid.min.js"></script>
-  
-  
-  <input name="animation" type="hidden">
-   <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
   </body>
 </html>
