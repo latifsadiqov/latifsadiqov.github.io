@@ -7,9 +7,9 @@ function uploadImage() {
     }
 
     const url = 'https://api.backblazeb2.com/b2api/v2/b2_authorize_account';
-    const accountID = 'YOUR_ACCOUNT_ID';
-    const applicationKeyID = 'YOUR_APPLICATION_KEY_ID';
-    const applicationKey = 'YOUR_APPLICATION_KEY';
+    const accountID = '393e43975253';
+    const applicationKeyID = '005393e439752530000000003';
+    const applicationKey = 'K005fROro2navc9faymLx6xU9bSgoLs';
 
     fetch(url, {
         method: 'GET',
