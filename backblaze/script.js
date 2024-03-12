@@ -14,7 +14,7 @@ function uploadImage() {
     fetch(url, {
         method: 'GET',
         headers: {
-            'Authorization': 'Basic ' + btoa(accountID + ':' + applicationKey),
+            'Authorization': 'Basic ' + btoa(applicationKeyID + ':' + applicationKey),
         }
     })
     .then(response => response.json())
