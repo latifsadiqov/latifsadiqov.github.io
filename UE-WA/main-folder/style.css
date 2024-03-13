@@ -1,0 +1,408 @@
+html {
+  background: url(../Enterance/quiz-background.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+}
+
+header {
+  width: 550px;
+}
+.btn_start,
+.quiz_box,
+.score_box {
+  margin: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button {
+  position: fixed;
+  width: 90px;
+  padding: 15px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.back {
+  display: inline-block;
+  margin: 0;
+  width: 50px;
+  height: 40px;
+}
+.input {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 5px;
+}
+.dntshow {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.9);
+}
+
+/* .quiz_box,
+.score_box {
+  box-shadow: 5px 10px 8px 10px #1a4143;
+} */
+
+.quiz_box.active {
+  opacity: 1;
+  pointer-events: auto;
+
+  transform: translate(-50%, -50%) scale(1);
+}
+.quiz_box {
+  width: 550px;
+
+  transform: translate(-50%, -50%) scale(0.7);
+  transition: all 0.5s ease;
+
+  opacity: 0;
+  pointer-events: none;
+  background-color: #f3edc8;
+}
+
+.quiz_box header .title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.quiz_box header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.quiz_box header .timer {
+  display: flex;
+  align-items: center;
+  background-color: #151d38;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.quiz_box header .timer .time_text {
+  font-size: 14px;
+}
+.quiz_box header .timer .time_second {
+  background-color: #721c24;
+  padding: 3px;
+  margin-left: 5px;
+  border-radius: 5px;
+  width: 25px;
+  font-size: 15px;
+  text-align: center;
+}
+.quiz_box header .time_line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #856603;
+  height: 5px;
+  /* width: 220px; */
+}
+.quiz_box .question_text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.quiz_box .option_list {
+  padding: 18px 0;
+}
+
+.option_list .option {
+  border: 1px solid #151d38;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quiz_box .option_list .option:hover {
+  color: #112b2c;
+  background: #ffd33d;
+}
+
+.quiz_box .option_list .option.correct {
+  color: #155724;
+  background: #d4edda;
+}
+
+.quiz_box .option_list .option.incorrect {
+  color: #721c24;
+  background: #f8d7da;
+}
+.quiz_box .option_list .option.disabled {
+  pointer-events: none;
+}
+
+.quiz_box .next_btn {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.9);
+}
+
+.quiz_box .next_btn.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+.quiz_box .correct_btn {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.9);
+}
+.quiz_box .correct_btn.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+.quiz_box footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* score_box */
+
+.score_box.active {
+  opacity: 1;
+  pointer-events: auto;
+
+  transform: translate(-50%, -50%) scale(1);
+}
+.score_box {
+  width: 550px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+  transform: translate(-50%, -50%) scale(0.7);
+  transition: all 0.5s ease;
+
+  opacity: 0;
+  pointer-events: none;
+}
+
+.score_box .icon {
+  font-size: 90px;
+  color: goldenrod;
+  margin-bottom: 10px;
+}
+
+.score_box .score_text {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 820px) {
+  header {
+    width: 100%;
+  }
+
+  .quiz_box header .time_line {
+    display: none;
+  }
+
+  .quiz_box {
+    margin: 0;
+    display: inline-block;
+    margin-top: 50px;
+    overflow-y: auto; /* Scrollbar will appear if content overflows */
+    height: 600px;
+  }
+
+  /* Reduce the font-size of the timer */
+  .quiz_box header .timer {
+    font-size: 0.6rem;
+  }
+
+  /* Reduce the width and height of the back button */
+  .back {
+    width: 40px;
+    height: 30px;
+  }
+
+  .quiz_box header .timer {
+    background-color: #151d38;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 11px;
+  }
+
+  .quiz_box header .timer .time_second {
+    margin-left: 9px;
+  }
+}
+
+@media (max-width: 550px) {
+  /* Reduce the width of the header */
+
+  header {
+    width: 100%;
+  }
+  .quiz_box header .time_line {
+    display: none;
+  }
+
+  .quiz_box {
+    margin: 0;
+    display: inline-block;
+    width: 450px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    overflow-y: auto; /* Scrollbar will appear if content overflows */
+    height: 550px;
+  }
+
+  /* Reduce the font-size of the timer */
+  .quiz_box header .timer {
+    font-size: 0.6rem;
+  }
+
+  /* Reduce the width and height of the back button */
+  .back {
+    width: 40px;
+    height: 30px;
+  }
+
+  .quiz_box header .timer {
+    background-color: #151d38;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 11px;
+  }
+
+  .quiz_box header .timer .time_second {
+    margin-left: 9px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Reduce the width of the header */
+  header {
+    width: 365px;
+  }
+
+  .quiz_box header .time_line {
+    display: none;
+  }
+
+  .quiz_box {
+    margin-top: 25px;
+    width: 370px;
+    display: flex;
+    overflow-y: auto; /* Scrollbar will appear if content overflows */
+    height: 550px;
+  }
+  /* Reduce the font-size of the timer */
+  .quiz_box header .timer {
+    font-size: 0.6rem;
+  }
+
+  /* Reduce the width and height of the back button */
+  .back {
+    width: 40px;
+    height: 30px;
+  }
+
+  .quiz_box header .timer {
+    background-color: #151d38;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 11px;
+  }
+
+  .quiz_box header .timer .time_second {
+    margin-left: 9px;
+  }
+}
+
+@media (max-width: 420px) {
+  header {
+    width: 320px;
+  }
+
+  .quiz_box header .time_line {
+    display: none;
+  }
+
+  .quiz_box {
+    margin-bottom: 25px;
+    width: 330px;
+    display: flex;
+    overflow-y: auto; /* Scrollbar will appear if content overflows */
+    height: 500px;
+  }
+  /* Reduce the font-size of the timer */
+  .quiz_box header .timer {
+    font-size: 0.6rem;
+  }
+
+  /* Reduce the width and height of the back button */
+  .back {
+    width: 40px;
+    height: 30px;
+  }
+
+  .quiz_box header .timer {
+    background-color: #151d38;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 9px;
+  }
+
+  .quiz_box header .timer .time_second {
+    margin-left: 2px;
+  }
+}
+
+@media (max-width: 340px) {
+  header {
+    width: 99%; /* Adjusted to full width */
+  }
+  .button {
+    padding: 5px;
+  }
+  .quiz_box header .time_line {
+    display: none;
+  }
+
+  .quiz_box {
+    width: 220px;
+    margin-bottom: 25px;
+    overflow-y: auto; /* Scrollbar will appear if content overflows */
+    height: 450px;
+  }
+  .score_box {
+    width: 100%;
+  }
+  /* Adjust the font-size of the timer to be readable */
+  .quiz_box header .timer {
+    font-size: 6px; /* Adjusted for visibility */
+    background-color: #151d38;
+    color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+  }
+
+  .quiz_box header .timer .time_second {
+    margin-left: 2px;
+  }
+
+  /* Adjust the back button to a reasonable size */
+  .back {
+    width: 40px; /* Adjusted width */
+    height: 30px; /* Adjusted height */
+  }
+}
