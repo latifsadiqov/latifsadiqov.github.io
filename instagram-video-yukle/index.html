@@ -54,7 +54,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Instagram Video Downloader</h1>
+        <h1>Instagram Video Yükləmək</h1>
         <form id="downloadForm">
             <label for="videoUrl">Instagram Video linkini daxil et:</label><br>
             <input type="text" id="videoUrl" name="videoUrl" required><br><br>
@@ -69,7 +69,7 @@
     <script>
         document.getElementById('downloadForm').addEventListener('submit', async function(event) {
             event.preventDefault();
-            const url = 'https://instagram-video-or-images-downloader.p.rapidapi.com/';
+            const url = 'https://instagram-downloader-download-instagram-videos-stories.p.rapidapi.com/';
             const videoUrl = document.getElementById('videoUrl').value.trim();
             
             const data = new FormData();
@@ -79,7 +79,7 @@
                 method: 'POST',
                 headers: {
                     'x-rapidapi-key': '33fafc83e2msh309d0ed495f2823p1ff4a5jsn51ac0db756b4',
-                    'x-rapidapi-host': 'instagram-video-or-images-downloader.p.rapidapi.com'
+		            'x-rapidapi-host': 'instagram-downloader-download-instagram-videos-stories.p.rapidapi.com'
                 },
                 body: data
             };
