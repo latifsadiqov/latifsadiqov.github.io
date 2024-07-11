@@ -90,7 +90,7 @@
 
                 if (result.success) {
                     const downloadLink = result.data.download_url;
-                    document.getElementById('downloadLink').innerHTML = `<a href="${downloadLink}" target="_blank">Download Video</a>`;
+                    document.getElementById('downloadLink').innerHTML = `<a href="${media}" target="_blank">Video Yükləmə linki</a>`;
                     document.getElementById('result').style.display = 'block';
                 } else {
                     document.getElementById('downloadLink').innerHTML = `Error: ${result.message}`;
