@@ -593,19 +593,19 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group form-input-box">
-                          <input type="text" class="form-control" id="name" name="name" placeholder="Ad*" required="required" data-error="Ad yazılmalıdır.">
+                          <input type="text" class="form-control" id="name" name="name" placeholder="Ad*" required="required" data-error="Ad yazılmalıdır." autocomplete="name">
                           <div class="help-block with-errors"></div>
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group form-input-box">
-                          <input type="email" class="form-control" id="email" name="email" placeholder="Email*" required="required" data-error="Email yazılmalıdır.">
+                          <input type="email" class="form-control" id="email" name="email" placeholder="Email*" required="required" data-error="Email yazılmalıdır." autocomplete="email">
                           <div class="help-block with-errors"></div>
                         </div>
                       </div>
                       <div class="col-md-12">
                         <div class="form-group form-input-box">
-                          <input type="text" class="form-control" name="subject" placeholder="Mövzu" required="required">
+                          <input type="text" class="form-control" name="subject" placeholder="Mövzu" required="required" autocomplete="message">
                         </div>
                       </div>
                       <div class="col-12">
@@ -698,7 +698,7 @@
                         </div>
                         <div class="subscribe-form">
                             <form action="#">
-                                <input type="text" placeholder="Epoçt ünvanınız">
+                                <input id="email" type="text" placeholder="Epoçt ünvanınız" autocomplete="email">
                                 <button><i class="bi bi-telegram"></i></button>
                             </form>
                         </div>
@@ -724,7 +724,7 @@
   <script src="js/bootstrap.bundle.min.js" async></script>
   <script src="js/aos.js"></script>
   <script src="js/plugins.js"></script>
-  <script src="js/purecounter_vanilla.js" async></script>
+  <script src="js/purecounter_vanilla.js"></script>
   <script src="js/validator.min.js"></script>
   <script src="js/contactform.js" defer></script>
   <script src="js/particles.min.js"></script>
