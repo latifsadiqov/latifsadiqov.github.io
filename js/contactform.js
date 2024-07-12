@@ -1,6 +1,5 @@
 $(function () {
     "use strict";
-    
     /*  
         Template name    : Technoit - IT Solutions & Business Services Multipurpose Responsive Website Template
         Author           : ZRTHEMES
@@ -19,7 +18,6 @@ $(function () {
                 {
                     $( "#msgSubmit" ).removeClass( "hidden" );
                     $('#ajax-contact')[0].reset();
-                    
                 }
             });
             return false;
